@@ -1,25 +1,25 @@
-Polygon Area Calculator
+## Polygon Area Calculator
 
 A Python library implementing object-oriented representations of Rectangles and Squares, providing calculations for geometric properties, ASCII representation rendering, and shape containment logic.
 
-Overview
+## Overview
 
 This project provides a simple object-oriented model to work with basic 2D geometric shapes. It solves the problem of calculating geometric metrics (area, perimeter, diagonal) programmatically, rendering visual ASCII art representations of shapes, and calculating how many times a given shape can fit completely inside another.
 
-Features
+## Features
 
-- Rectangle Class: Defines a rectangle with width and height properties.
-- Square Class: Inherits from `Rectangle` with synchronized dimensions to ensure side lengths remain equal.
-- Property Calculations: Instant calculation of area, perimeter, and diagonal length.
-- ASCII Rendering: Generates a string representation of the shape using `*` characters (up to 50 units in width or height).
-- Shape Containment Calculation: Computes how many instances of another shape fit inside the current shape without rotation.
+- **Rectangle Class**: Defines a rectangle with width and height properties.
+- **Square Class**: Inherits from `Rectangle` with synchronized dimensions to ensure side lengths remain equal.
+- **Property Calculations**: Instant calculation of area, perimeter, and diagonal length.
+- **ASCII Rendering**: Generates a string representation of the shape using `*` characters (up to 50 units in width or height).
+- **Shape Containment Calculation**: Computes how many instances of another shape fit inside the current shape without rotation.
 
-Tech Stack
+## Tech Stack
 
 - Language: Python 3.x
 - Standard Library: `math` module
 
-Testing 
+##Testing 
 
 from PolygonAreaCalculator import Rectangle, Square
 
